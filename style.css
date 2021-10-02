@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family:"GT Maru", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
 }
 
 :root{
     --title_font:"GT Maru", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
-    --text_font:
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(47,128,237,0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
 }
 
 /* HERO SECTION
@@ -22,7 +31,7 @@
 .navbar-brand:hover{
     font-family:var(--title_font);
     font-weight:900;
-    font-size: 18px;
+    font-size:30px;
     color:#f1efe3;
     line-height: 27px;
 }
@@ -34,7 +43,7 @@
 .navbar ul li a{
     font-family:var(--title_font);
     font-weight:800;
-    font-size: 18px;
+    font-size:16px;
     color:#f1efe3;
     line-height: 27px;  
 }
@@ -76,7 +85,7 @@
 .hero_content .hero_content_text{
     border-bottom: .1rem solid whitesmoke;
     border-top: .1rem solid whitesmoke;
-    color: white;
+    color: rgb(87, 197, 102);
     justify-content: start;
     align-items: center;
 }
@@ -92,11 +101,153 @@
 =========================================END===== */
 
 
-/* HERO SECTION
-=========================================END===== */
-#trainer{
+
+/*INFOMATION SECTION
+=========================================START===== */
+#info{
     background-color: #F1EFE3;
 }
+.info_img{
+    width:100%;
+    height: auto;
 
-/* HERO SECTION
+}
+.info_img img{
+    width:100%;
+    height:100%;
+}
+.side_content h6{
+    margin-top:-20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.side_content p{
+    text-align: justify;    
+    font-size: 18px;
+    font-weight:400;
+}
+
+.phone_lg_1 {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-rotate: 12deg;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    margin-top: -16rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+/*INFORMATION SECTION
+=========================================END===== */
+
+
+
+/* GREY SECTION
+=========================================START===== */
+#grey{
+    background-color: aqua;
+}
+
+
+
+/*GREY SECTION
+=========================================END===== */
+
+
+
+/* YELLOW SECTION
+=========================================START===== */
+#yellow{
+    background-color: #f9ca24;
+    padding: 100px 0px;
+}
+#yellow h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;  
+
+}
+#yellow p{
+    font-size: 19px;
+    font-weight: 700;
+   
+
+}
+.yellow-btn{
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 30px;
+    width: 250px;
+    height:60px;
+    border-radius:50px;
+    background-color: yellowgreen;
+    box-shadow: 5px 5px 0px 0px red;
+
+}
+.yellow-btn a{
+    text-decoration: none;
+    color: black;
+}
+.yellow-btn:hover{
+     box-shadow:none;
+
+}
+
+/*YELLOW SECTION
+=========================================END===== */
+
+
+
+
+/* FOOTER SECTION
+=========================================START===== */
+#footer{
+    padding:100px 0px;
+    background-color: #221F14;
+
+}
+
+.info-foot-img{
+   width:180px;
+    height:180px;
+}
+.footer-content{
+    border-bottom: 1px solid white;
+    padding-bottom:40px;
+}
+.logo{
+    margin-top:-15px;
+     margin-bottom:10px;
+}
+.footer-content .more_dream2day a,
+.footer-content .get_in_touch a{
+    text-decoration: none;
+    color: rgb(225, 225, 143);
+}
+.footer-content .more_dream2day a:hover,
+.footer-content .get_in_touch a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.footer-content h2{
+    color: white;
+    font-size:20px;
+}
+.social a,.policy a{
+    color:white;
+     font-size: 18px;
+    margin-right:7px;
+    text-decoration: none;
+}
+
+
+
+
+/*FOOTER SECTION
 =========================================END===== */
