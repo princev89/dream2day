@@ -4,6 +4,99 @@
     box-sizing: border-box;
 }
 
-body{
+:root{
+    --title_font:"GT Maru", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
+    --text_font:
+}
+
+/* HERO SECTION
+=========================================START===== */
+#hero{
+    background-color:#221F14;
    
 }
+.navbar{
+    height:20vh;
+}
+.navbar-brand,
+.navbar-brand:hover{
+    font-family:var(--title_font);
+    font-weight:900;
+    font-size: 18px;
+    color:#f1efe3;
+    line-height: 27px;
+}
+
+.navbar ul li{   
+    padding:0 20px;
+}
+
+.navbar ul li a{
+    font-family:var(--title_font);
+    font-weight:800;
+    font-size: 18px;
+    color:#f1efe3;
+    line-height: 27px;  
+}
+.qr-code-img img{
+    height:2rem;
+    align-items: center;
+}
+.hover-scan{
+    position: absolute;
+    top:100px;
+    right:10px;
+    background-color:red;
+    padding:35px 18px;
+    border-radius:10px;
+    transition:.1s all ease-out;
+   opacity:0;
+   visibility: hidden;
+    
+}
+.hover-scan p{
+    text-align: center;
+    font-family:var(--title_font);
+    font-weight:800;
+    font-size: 20px;
+    color:#f1efe3;
+    line-height: 27px;    
+
+}
+.qr-code:hover .hover-scan{
+   opacity:1 !important;
+   visibility: visible !important;;
+    transition:.1s all ease-out;
+    z-index: 99;
+}
+.hero_content > div{
+    padding: 20px 0px 10px 0px;    
+} 
+
+.hero_content .hero_content_text{
+    border-bottom: .1rem solid whitesmoke;
+    border-top: .1rem solid whitesmoke;
+    color: white;
+    justify-content: start;
+    align-items: center;
+}
+.hero_content .hero_content_aapimg{
+    margin-bottom:10px;
+}
+.hero_content .hero_content_aapimg a{
+    margin-right:20px;
+}
+
+
+/* HERO SECTION
+=========================================END===== */
+
+
+/* HERO SECTION
+=========================================END===== */
+#trainer{
+    background-color: #F1EFE3;
+}
+
+/* HERO SECTION
+=========================================END===== */
