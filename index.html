@@ -13,28 +13,31 @@
     <link rel="stylesheet" href="style.css">
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- wrap section Start -->
     <!-- hearo section -->
-    <section id="hero">
-        <div class="container">
+    <nav></nav>
+    <section id="hero" class="bg-light">
+        <div class="container  h1">
 
             <!--navigation  -->
             <nav class="navbar navbar-expand-md text-white">
-                <a class="navbar-brand" href="index.html">Dream2day</a>
-                <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png"  style="width: 50px;" alt="">
+                </a>
+                <div class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navid">
                     <i class="fa fa-align-left"></i>
                 </div>
                 <div class="collapse navbar-collapse" id="navid">
-                    <ul class="navbar-nav bg-danger " style="z-index: 99;">
+                    <ul class="navbar-nav" style="z-index: 99;">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link  text-dark " href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Job</a>
+                            <a class="nav-link  text-dark " href="#">Job</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav qr-code hidden-md ml-auto">
@@ -43,10 +46,10 @@
                             <a class="qr-code-img">
                                 <img src="img/qr_code_light.png" alt="Deeam2day QR-Code" class="img-fluid">
                             </a>
-                            <a class="nav-link" href="#">Get Dream2day</a>
+                            <a class="nav-link text-dark" href="#">Get Dream2day</a>
                         </li>
 
-                        <div class="hover-scan">
+                        <div class="hover-scan text-dark">
                             <p>Scan to download <br>the app</p>
                             <p><img src="img/qr_code_light.png" alt="Deeam2day QR-Code" class="img-fluid"></p>
 
@@ -55,11 +58,12 @@
                 </div>
             </nav>
             <!-- main-content -->
-            <div class="row hero_content ml-2">
-                <div class="hero_content_img col-md-12">
+            <div class="row hero_content ml-2" data-aos="fade-up"
+            data-aos-duration="2000">
+                <!-- <div class="hero_content_img col-md-12">
                     <img src="img/hero_lg.png" alt="Deeam2day" class="img-fluid">
-                </div>
-                <div class="hero_content_text col-md-12">
+                </div> -->
+                <div class="hero_content_text col-md-12 text-dark">
                     <p>Bounce around the hallways of the Internet and book your event with us.</p>
                 </div>
                 <div class="hero_content_aapimg col-md-12">
@@ -77,34 +81,34 @@
 
 
     <!-- information Content -->
-    <section id="info">
+    <section id="info" >
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div class="info_img justify-content-center align-items-center" style="width: 66%;">
-                        <img src="img/phone_frame_lg.png" alt="Dream2day" class="img-fluid">
+                        <img data-aos="rotate-c" data-aos-duration="1000" data-aos-easing="ease-out-sine" src="img/phone_frame_lg.png" alt="Dream2day" class="img-fluid">
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="side_content row">
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="fade-up"  data-aos-duration="1000">
                             <p class="mb-0"><img src="img/icon_stars.png" alt="Deeam2day" class="img-fluid">
                             </p>
                             <h6>Explore the hallways</h6>
                             <p>Discover millions of rooms, filled with fascinating and unexpected conversations.</p>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="fade-up"  data-aos-duration="1000">
                             <p class="mb-0"><img src="img/icon_handwave.png" alt="Deeam2day" class="img-fluid"></p>
                             <h6>Explore the hallways</h6>
                             <p>Discover millions of rooms, filled with fascinating and unexpected conversations.</p>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="fade-up"  data-aos-duration="1000">
                             <p class="mb-0"><img src="img/icon_people.png" alt="Deeam2day" class="img-fluid"></p>
                             <h6>Explore the hallways</h6>
                             <p>Discover millions of rooms, filled with fascinating and unexpected conversations.</p>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="fade-up"  data-aos-duration="1000">
                             <p class="mb-0"><img src="img/icon_speech.png" alt="Deeam2day" class="img-fluid"></p>
                             <h6>Explore the hallways</h6>
                             <p>Discover millions of rooms, filled with fascinating and unexpected conversations.</p>
@@ -169,6 +173,7 @@
         </div>
     </section>
 
+   
     <!-- Footer Content -->
     <footer id="footer">
         <div class="container">
@@ -271,7 +276,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     <!-- wrap section End -->
 

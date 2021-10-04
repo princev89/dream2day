@@ -22,9 +22,10 @@ section{padding:50px 100px;}
 
 /* HERO SECTION
 =========================================START===== */
+
+
 #hero{
     background-color:#221F14;
-    
    
 }
 .navbar{
@@ -91,8 +92,8 @@ section{padding:50px 100px;}
 .hero_content .hero_content_text{
     border-bottom: .1rem solid whitesmoke;
     border-top: .1rem solid whitesmoke;
-    color: rgb(87, 197, 102);
     justify-content: start;
+    color: white;
     align-items: center;
 }
 
@@ -354,3 +355,18 @@ section{padding:50px 100px;}
 
     
 }
+
+
+
+/* Animation part */
+
+
+  
+  [data-aos="rotate-c"] {
+    transform: rotate(-20deg);
+    transition-property: transform;
+  }
+  
+  [data-aos="rotate-c"].aos-animate {
+    transform: rotate(20deg);
+  }
