@@ -2,27 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family:"GT Maru", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
 }
 
 :root{
     --title_font:"GT Maru", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
-    --text_font:
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(47,128,237,0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
 }
+
+section{padding:50px 100px;}
 
 /* HERO SECTION
 =========================================START===== */
+
+
 #hero{
     background-color:#221F14;
    
 }
 .navbar{
-    height:20vh;
+    height:40px;
 }
 .navbar-brand,
 .navbar-brand:hover{
     font-family:var(--title_font);
     font-weight:900;
-    font-size: 18px;
+    font-size:30px;
     color:#f1efe3;
     line-height: 27px;
 }
@@ -34,7 +47,7 @@
 .navbar ul li a{
     font-family:var(--title_font);
     font-weight:800;
-    font-size: 18px;
+    font-size:16px;
     color:#f1efe3;
     line-height: 27px;  
 }
@@ -44,7 +57,7 @@
 }
 .hover-scan{
     position: absolute;
-    top:100px;
+    top:10px;
     right:10px;
     background-color:red;
     padding:35px 18px;
@@ -69,6 +82,9 @@
     transition:.1s all ease-out;
     z-index: 99;
 }
+.hero_content{
+    padding-top:40px;
+}
 .hero_content > div{
     padding: 20px 0px 10px 0px;    
 } 
@@ -76,13 +92,11 @@
 .hero_content .hero_content_text{
     border-bottom: .1rem solid whitesmoke;
     border-top: .1rem solid whitesmoke;
-    color: white;
     justify-content: start;
+    color: white;
     align-items: center;
 }
-.hero_content .hero_content_aapimg{
-    margin-bottom:10px;
-}
+
 .hero_content .hero_content_aapimg a{
     margin-right:20px;
 }
@@ -92,11 +106,333 @@
 =========================================END===== */
 
 
-/* HERO SECTION
-=========================================END===== */
-#trainer{
+
+/*INFOMATION SECTION
+=========================================START===== */
+#info{
+   
     background-color: #F1EFE3;
 }
+.info_img{
+    width:100%;
+    height: auto;
 
-/* HERO SECTION
+}
+.info_img img{
+    width:100%;
+    height:100%;
+}
+.side_content h6{
+    margin-top:-20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.side_content p{
+    text-align: left;    
+    font-size: 18px;
+    font-weight:400;
+}
+
+.phone_lg_1 {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-rotate: 12deg;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    margin-top: -16rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+/*INFORMATION SECTION
 =========================================END===== */
+
+
+
+/* GREY SECTION
+=========================================START===== */
+#grey{   
+    background-color:gray;
+}
+
+.line-1 h2{
+    font-size:40px;
+    font-weight: 400;    
+    color:#FEE25D;
+}
+.line-2 h4{
+    text-align:right;
+    font-weight: 400;  
+    color:#FEE25D;
+}
+/* .img .img-1{
+    margin-left:200px;
+}
+
+.img .img-2{
+    margin-left:300px;
+} */
+.img .img-1,
+.img .img-2{
+   
+    width: 250px;
+    text-align: center;
+  
+}
+
+
+
+/*GREY SECTION
+=========================================END===== */
+
+
+
+/* YELLOW SECTION
+=========================================START===== */
+#yellow{
+    background-color: #f9ca24;
+    padding: 100px 100px;
+}
+#yellow h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;  
+    color: red;
+
+}
+#yellow p{
+    font-size: 19px;
+    font-weight: 700;
+   
+
+}
+.border-img{
+    width: 100px;
+    height:100px;
+    margin-left: 15px;
+    
+}
+.border-img img{
+    border-radius:50px;
+    box-shadow: 0px 8px 0px 0px rgb(160, 150, 150);
+
+}
+.yellow-btn{
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 30px;
+    width: 250px;
+    height:60px;
+    border-radius:50px;
+    background-color:white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px red;
+
+}
+.yellow-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.yellow-btn:hover{
+     box-shadow:none;
+
+}
+.yell-btn-qr{
+    top:0px;
+    right:100px;
+    bottom: 30px;
+}
+
+/*YELLOW SECTION
+=========================================END===== */
+
+
+
+
+/* FOOTER SECTION
+=========================================START===== */
+#footer{
+    padding:100px 90px;
+    background-color: #221F14;
+
+}
+
+.info-foot-img{
+   width:180px;
+    height:180px;
+}
+.footer-content{
+    border-bottom: 1px solid white;
+    padding-bottom:40px;
+}
+.logo{
+    margin-top:-15px;
+     margin-bottom:10px;
+}
+.footer-content .more_dream2day a,
+.footer-content .get_in_touch a{
+    text-decoration: none;
+    color: rgb(225, 225, 143);
+}
+.footer-content .more_dream2day a:hover,
+.footer-content .get_in_touch a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.footer-content h2{
+    color: white;
+    font-size:20px;
+}
+.social a,.policy a{
+    color:white;
+     font-size: 18px;
+    margin-right:7px;
+    text-decoration: none;
+}
+
+/*FOOTER SECTION
+=========================================END===== */
+
+
+
+/*RESPONSIVE CODE
+=====================================================================================================START===== */
+@media only screen and (max-width:768px) and (max-width:997px){
+ 
+     section{padding:50px 50px;}
+     #yellow{ padding: 40px 10px!important; }
+     #yellow h2{ text-align: left;   font-size: 35px;  }
+     .yellow-btn{margin-right: 700px!important;}
+      #footer{ padding: 40px 15px!important; }
+}
+
+@media only screen and (max-width:600px){
+ 
+     section{padding:50px 10px;}
+     #yellow{ padding: 40px 10px!important; }
+     #yellow h2{ text-align:center;   font-size: 25px;  }
+    .policy a{margin-right: 0;}
+      #footer{ padding: 40px 0px!important; }
+      .footer-content > div{
+          margin-bottom:30px;
+      }
+      .footer-content{
+    
+    padding-bottom:0px;
+    }
+      .more_dream2day, .get_in_touch,.footer-social{
+          margin-left:20px;
+      }
+
+      #hero{
+          padding-top:10px !important;
+      }
+      .hidden-md{
+          display:none;
+      }
+      .line-1 h2{
+    font-size:25px;
+    
+    }
+
+     .line-2 h4{
+    text-align: center !important;
+    
+    }
+    .border-img{   
+    margin: 0px auto;
+    
+    }
+    .yellow-btn{
+        margin: 50px 55px 0px;
+    }
+
+    
+}
+
+
+
+/* Animation part */
+
+
+  
+  [data-aos="rotate-c"] {
+    transform: rotate(-20deg);
+    transition-property: transform;
+  }
+  
+  [data-aos="rotate-c"].aos-animate {
+    transform: rotate(20deg);
+  }
+  .row p{
+    font-family: cursive;
+  }
+  .row h3{
+    color: darkred;
+    font-family: monospace;
+  }
+  .social
+  {
+
+  }
+  /* contact page */
+ .box {
+    margin: auto
+}
+
+.card {
+    padding: 8%;
+    padding-top: 35px;
+    margin-top: 60px;
+    margin-bottom: 80px
+}
+
+textarea[name="message"] {
+    resize: none
+}
+
+#e-mail {
+    height: 45px
+}
+
+#message {
+    height: 120px
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #616161;
+    border: #616161;
+    color: #BDBDBD
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #000000;
+    color: #BDBDBD
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-purple {
+    background-color: #5C6BC0;
+    color: #ffffff
+}
